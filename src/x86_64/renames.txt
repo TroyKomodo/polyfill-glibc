@@ -1349,7 +1349,7 @@ getaddrinfo_a@GLIBC_2.34 libanl.so.1::getaddrinfo_a@GLIBC_2.2.5
 __isnanf128@GLIBC_2.34 libm.so.6::__isnanf128@GLIBC_2.26
 
 // GLIBC_2.35
-// TODO _dl_find_object@GLIBC_2.35
+_dl_find_object@GLIBC_2.35 polyfill::_dl_find_object
 epoll_pwait2@GLIBC_2.35 polyfill::epoll_pwait2_2_35
 __memcmpeq@GLIBC_2.35 bcmp@GLIBC_2.2.5
 posix_spawn_file_actions_addtcsetpgrp_np@GLIBC_2.35 polyfill::posix_spawn_file_actions_addtcsetpgrp_np

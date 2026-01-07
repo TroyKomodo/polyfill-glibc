@@ -1013,7 +1013,7 @@ tss_get@GLIBC_2.34 libpthread.so.0::tss_get@GLIBC_2.28
 tss_set@GLIBC_2.34 libpthread.so.0::tss_set@GLIBC_2.28
 
 // GLIBC_2.35
-// TODO _dl_find_object@GLIBC_2.35
+_dl_find_object@GLIBC_2.35 polyfill::_dl_find_object
 epoll_pwait2@GLIBC_2.35 polyfill::epoll_pwait2_2_35
 __memcmpeq@GLIBC_2.35 bcmp@GLIBC_2.17
 // TODO posix_spawn_file_actions_addtcsetpgrp_np@GLIBC_2.35
